@@ -68,4 +68,4 @@ python main.py --model_type Picture_model
 python main.py --model_type Text_model
 ```
 
-以上命令均可在lab5.ipynb文件中运行对应代码块。
+以上命令均可在lab5.ipynb文件中运行对应代码块执行。
