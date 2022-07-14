@@ -9,9 +9,9 @@ from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer
 
-data_path = '/root/exp5/data/data'
-train_path = '/root/exp5/data/train.txt'
-test_path = '/root/exp5/data/test_without_label.txt'
+data_path = './data/data'
+train_path = './data/train.txt'
+test_path = './data/test_without_label.txt'
 file_list = os.listdir(data_path)
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
