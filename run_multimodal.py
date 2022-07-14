@@ -92,7 +92,7 @@ def test_multimodal(test_dataloader, device):
                     preds.append('positive')
                 elif i == 2:
                     preds.append('neutral')
-    with open('./result/result.txt', 'w') as f:
+    with open('./result.txt', 'w') as f:
         f.write('guid,tag\n')
         for i in range(len(guids)):
             f.write(str(guids[i]) + ',' + str(preds[i]) + '\n')
