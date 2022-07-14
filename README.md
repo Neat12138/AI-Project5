@@ -33,7 +33,8 @@ transformers==4.20.1
 ├─requirements.txt	# 项目配置文件
 ├─run_multimodal.py	# 训练多模态模型并测试
 ├─run_pictrue.py	# 只输入图像特征的消融实验训练函数
-└─run_text.py	# 只输入文本特征的消融实验训练函数
+├─run_text.py	# 只输入文本特征的消融实验训练函数
+└─result.txt # 模型对test数据集的预测结果
 ```
 
 #### 运行说明：
