@@ -40,7 +40,7 @@ transformers==4.20.1
 1.参数设置：
 
 ```
---model_type	# 选择训练模式，输入Multimodal训练多模态模型，输入Picture_model进行保留图像特					征的消融实验，输入Text_model进行保留文本特征的消融实验。默认为Multimodal
+--model_type	# 选择训练模式，输入Multimodal训练多模态模型，输入Picture_model进行保留图像特征的消融实验，输入Text_model进行保留文本特征的消融实验。默认为Multimodal
 --lr	# 设置学习率，默认为0.005
 --momentum	# 设置优化器动量，默认为0.90
 --batch_size	#设置batch_size，默认为32
